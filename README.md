@@ -293,6 +293,8 @@ Power BI
 Data Visualization
 Business Problem Solving
 GitHub
+
+
 🏁 Conclusion
 
 This project demonstrates an end-to-end Supply Chain Analytics workflow, starting from raw data validation and SQL analysis and progressing to Python visualization and Power BI reporting.
