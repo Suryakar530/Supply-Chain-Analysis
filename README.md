@@ -256,37 +256,6 @@ Monitor supplier, inventory, logistics, sales, and quality KPIs regularly to imp
 
 These recommendations are also reflected in the project's Python executive-summary section.
 
-📁 Project Structure
-Supply-Chain-Analytics/
-│
-├── README.md
-│
-├── Data/
-│   └── supply_chain_data.csv
-│
-├── SQL/
-│   └── SUPPLY_CHAIN_ANALYSIS.sql
-│
-├── Python/
-│   ├── 1-DATA LOADING AND VALIDATION.py
-│   ├── 2-DESCRIPTIVE ANALYSIS.py
-│   ├── 3-SALES & REVENUE ANALYSIS.py
-│   ├── 4-Quality & Defect Analysis.py
-│   └── 5-Executive Summary.py
-│
-├── PowerBI/
-│   └── supply chain analysis dashboard.pbix
-│
-└── Visualizations/
-    ├── distribution_of_product_prices.png
-    ├── heighest_no_of_unitssold.png
-    ├── heighest_revenue.png
-    ├── inspection_result_to_defect_rates.png
-    ├── lowest_avg_stock.png
-    ├── shipping_time_with_shippimng_cost.png
-    ├── shippingcarrier_with_heighest_shippingcost.png
-    ├── top_10_products_by_revenue.png
-    └── transportmode_wirh_longest_shippingtime.png
 🔄 Project Workflow
 Raw Supply Chain Data
         ↓
