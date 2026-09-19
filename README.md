@@ -142,81 +142,6 @@ The SQL classifies products into High, Medium, and Low Quality Risk based on def
 
 The final SQL section combines major supply-chain KPIs including revenue, costs, estimated profit, profit margin, inventory, availability, shipping time, and defect rate.
 
-🐍 Python Analysis
-
-Python was used for data loading, validation, descriptive analysis, sales/revenue analysis, quality analysis, and business conclusions.
-
-The validation process checks:
-
-Dataset shape
-Column names
-Data types
-Missing values
-Duplicate records
-Unique values
-Numerical statistics
-Categorical statistics
-Negative values
-
-The sales analysis calculates total units sold, revenue, costs, estimated profit, product-type performance, and top products.
-
-📊 Key Visual Insights
-💰 Revenue by Product Type
-Product Type	Revenue
-Skincare	241,628
-Haircare	174,455
-Cosmetics	161,521
-
-Skincare is the strongest revenue-generating product type.
-
-📦 Units Sold
-Product Type	Units Sold
-Skincare	20,731
-Haircare	13,611
-Cosmetics	11,757
-
-Skincare also records the highest number of units sold.
-
-📉 Average Stock Level
-Product Type	Average Stock
-Skincare	40.2
-Haircare	48.4
-Cosmetics	58.7
-
-Cosmetics has the highest average stock level among the three categories.
-
-🛡️ Quality
-
-The visualization shows average defect rates of:
-
-Fail: 2.57
-Pending: 2.15
-Pass: 2.04
-
-This highlights the relationship between inspection outcomes and defect rates.
-
-🚚 Transportation
-
-Average shipping time:
-
-Transportation Mode	Avg. Shipping Time
-Sea	7.1
-Rail	6.6
-Air	5.1
-Road	4.7
-
-Sea transportation has the longest average shipping time, while road has the shortest.
-
-💵 Shipping Carrier Cost
-
-Average shipping costs are relatively close:
-
-Carrier C — 5.60
-Carrier A — 5.55
-Carrier B — 5.51
-
-This suggests that carrier selection may need to consider both cost and shipping performance, rather than cost alone.
-
 📈 Visualizations
 
 The Python analysis includes visualizations such as:
@@ -277,8 +202,6 @@ Recommendations
 🎓 Skills Demonstrated
 PostgreSQL
 SQL
-Data Validation
-Data Cleaning
 Pandas
 NumPy
 Matplotlib
